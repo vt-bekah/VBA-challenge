@@ -2,10 +2,14 @@
 This repository contains challenge files for UT DAV Bootcamp Module 2 VBA Scripting
 
 # File Notes
-Stocksummary.vbs is The script that implements the requirements documented within the Instructions section.
-   Note: This script assumes the the data is sorted alphadetically by ticker name then chronologicaly by date. This assumption allows for lighter processer usage during the analysis.
-The Results_Screenshots folder contains screenshots of each tab after executing the script on alphabetical_testing and  Multiple_year_stock_data.
-The Starter_Code folder contains the excel files and screenshots provided in BCS/Canvas for completing the challenge.
+* There was debate on intepretation of the instructions so I have two scripts
+   * Stocksummary.vbs is the script that implements the requirements documented within the Instructions section with a summary on each tab. 
+   * StockSummaryFirstTab.vbc is the script that implements requirements documented within the Instructions section with a summary on the first tab only.
+   * Note: Both scripts assume the the data is sorted alphadetically by ticker name then chronologicaly by date. This assumption allows for lighter processer usage during the analysis.
+* The Results_Screenshots folder contains screenshots of each tab after executing the script on alphabetical_testing and  Multiple_year_stock_data.
+   * MultiYearStock_20##Results are for each tab of the Multiple_year_stock_data workbook
+   * AlphaTesting_*results are for each tab of the alphabetical_testing workbook
+* The Starter_Code folder contains the excel files and screenshots provided in BCS/Canvas for completing the challenge.
 
 # References
 The following references were used to identify various functions used within the script:
@@ -13,7 +17,6 @@ The following references were used to identify various functions used within the
  * Max & Min: https://learn.microsoft.com/en-us/office/vba/api/excel.worksheetfunction#methods
  * Number Formatting: https://learn.microsoft.com/en-us/office/vba/api/excel.cellformat.numberformat
  * Autofit Formatting: https://learn.microsoft.com/en-us/office/vba/api/excel.range.autofit
-
 
 # Instructions
 
