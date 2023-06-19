@@ -3,8 +3,8 @@ This repository contains challenge files for UT DAV Bootcamp Module 2 VBA Script
 
 # File Notes
 * There was debate on intepretation of the instructions so I have two scripts
-   * Stocksummary.vbs is the script that implements the requirements documented within the Instructions section with a summary on each tab. 
-   * StockSummaryFirstTab.vbc is the script that implements requirements documented within the Instructions section with a summary on the first tab only.
+   * Stocksummary.vbs is the script that implements the requirements documented within the Instructions section with a summary on each tab. (makes sense for Multiple_year_stock_data workbook)
+   * StockSummaryFirstTab.vbc is the script that implements requirements documented within the Instructions section with a summary on the first tab only. (makes sense for alphabetical_testing workbook)
    * Note: Both scripts assume the the data is sorted alphadetically by ticker name then chronologicaly by date. This assumption allows for lighter processer usage during the analysis.
 * The Results_Screenshots folder contains screenshots of each tab after executing the script on alphabetical_testing and  Multiple_year_stock_data.
    * MultiYearStock_20##Results are for each tab of the Multiple_year_stock_data workbook
