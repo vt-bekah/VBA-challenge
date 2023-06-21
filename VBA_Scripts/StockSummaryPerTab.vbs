@@ -92,7 +92,7 @@ Sub WorksheetLoop()
 
         ' Format summary cells
         ' Conditional formatting that will highlight positive change in green and negative change in red
-        For Each iCell In ws.Range("J:J")
+        For Each iCell In ws.Range("J:K")
             If iCell.Value > 0 And IsNumeric(iCell) Then
                 iCell.Interior.ColorIndex = 4
             ElseIf iCell.Value < 0 And IsNumeric(iCell) Then
