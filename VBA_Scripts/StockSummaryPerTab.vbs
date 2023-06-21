@@ -27,7 +27,7 @@ Sub WorksheetLoop()
         OpenP = 0
         Dim CloseP As Double
         CloseP = 0
-        Dim Volume As Double        
+        Dim Volume As LongLong         
         Volume = 0
         
         ' Loop through all ticker info; my logic compares to the previous row so go past the row count by 1 to capture the last ticker
