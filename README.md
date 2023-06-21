@@ -2,13 +2,11 @@
 This repository contains challenge files for UT DAV Bootcamp Module 2 VBA Scripting
 
 # File Notes
-* There was debate on intepretation of the instructions so I have two scripts
-   * StocksummaryPerTab.vbs is the script that implements the requirements documented within the Instructions section with a summary on each tab. (makes sense for Multiple_year_stock_data workbook)
-   * StockSummaryFirstTab.vbs is the script that implements requirements documented within the Instructions section with a summary on the first tab only. (makes sense for alphabetical_testing workbook)
-   * Note: Both scripts assume the the data is sorted alphadetically by ticker name then chronologicaly by date. This assumption allows for lighter processer usage during the analysis.
-* The Results_Screenshots folder contains screenshots of each tab after executing the script on alphabetical_testing and  Multiple_year_stock_data.
-   * MultiYearStock_20##Results are for each tab of the Multiple_year_stock_data workbook from using StocksummaryPerTab.vbs. Since the desired summary indicated a yearly change, it made sense to have a summary on each sheet.
-   * AlphaTesting_AllResultsFirstSheet is for the first sheet of the alphabetical_testing workbook from using StockSummaryFirstTab.vbs. This is a split view to show that summary results were pulled in from the other tabs as the data was all relevant to the same year and summarized in one place.
+* StocksummaryPerTab.vbs is the script that implements the requirements documented within the Instructions section with a summary on each tab. (makes sense for Multiple_year_stock_data workbook)
+   * Note: This script assumes (per TA guidance) the the data is sorted alphadetically by ticker name then chronologicaly by date. This assumption allows for lighter processer usage during the analysis.
+* The Results_Screenshots folder contains screenshots of each tab after executing the script on Multiple_year_stock_data.
+   * MultiYearStock_20##Results are for each tab of the Multiple_year_stock_data workbook from using StocksummaryPerTab.vbs on the file. 
+
 * The Starter_Code folder contains the excel files and screenshots provided in BCS/Canvas for completing the challenge.
 
 # References
