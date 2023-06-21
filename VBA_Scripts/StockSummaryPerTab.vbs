@@ -99,7 +99,8 @@ Sub WorksheetLoop()
                 iCell.Interior.ColorIndex = 3
             End If
         Next
-        ' Format %s, scientific notation, and autofit new columns for readability
+        ' Format $, %s, scientific notation, and autofit new columns for readability
+        ws.Range("J:J").Style = "Currency"
         ws.Range("K:K").NumberFormat = "0.00%"
         ws.Range("Q2:Q3").NumberFormat = "0.00%"
         ws.Range("Q4").NumberFormat = "##0.00E+0"
